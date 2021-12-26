@@ -36,4 +36,10 @@ func main() {
 	accountBalanceThree := 45.78 // Float64 is inferred with the shorthand notation(this has got to have an official name)
 	fmt.Println("Float>>>", accountBalanceOne, accountBalanceTwo, accountBalanceThree)
 
+	// Formatting Strings
+	myNewName := "Jesse"
+	myNewAge := 50
+
+	fmt.Printf("My name is %v and I'm %v years old", myNewName, myNewAge)
+
 }
